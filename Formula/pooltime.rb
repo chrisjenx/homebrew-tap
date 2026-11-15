@@ -10,23 +10,23 @@ class Pooltime < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.0/pooltime-1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6c0fd7da80770d81a4c5286af10e995ea95d31bb87653a81ad41a2ca92f411b4" # sha256 filled by release
+      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.1/pooltime-1.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d8438335dc8e5edc68282f7873be11af4da74114c3bb3fe53c67a57714551317" # sha256 filled by release
     end
     on_intel do
-      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.0/pooltime-1.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e3d86817d3edcf2c5e9d6682430d2a75a49d482c5aa0bc0c65b9531c157512ba" # sha256 filled by release
+      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.1/pooltime-1.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3ab5fcab1b366d0f041188e1dfafb4060d9627eb9af6222e3cd4fb9123419eca" # sha256 filled by release
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.0/pooltime-1.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4745a1d88ea804e570de9d8b18bf3414b4bf1fad54b7ee51e377ebd94a90ac05" # sha256 filled by release
+      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.1/pooltime-1.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fd5869af5d27b5fd534b6c153c3b692bc7c4746d4f6a9e045768ee892f842187" # sha256 filled by release
     end
     on_intel do
-      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.0/pooltime-1.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4babec0e19f5dc3101155ceb681dce86172fccd797f82b50cd4d10f2d0d55bdf" # sha256 filled by release
+      url "https://github.com/chrisjenx/pooltime/releases/download/v1.2.1/pooltime-1.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a1c7074b687f70f77214e72ff5b79b2339b54f2df185343190ecb941b863b4d5" # sha256 filled by release
     end
   end
 
